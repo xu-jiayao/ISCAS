@@ -3,21 +3,14 @@ The code to published paper "A 81.92Gpixels/S Fast Reconstruction of Images from
 
 The reference of this paper is following:
 
-@inproceedings{xu202281,
-
-  title={An 81.92 Gpixels/s Fast Reconstruction of Images from Compressively Sensed Measurements},
-  
-  author={Xu, Jiayao and Chi, Pham Do Kim and Fu, Chen and Zhou, Jinjia},
-  
-  booktitle={2022 IEEE International Symposium on Circuits and Systems (ISCAS)},
-  
-  pages={2978--2982},
-  
-  year={2022},
-  
-  organization={IEEE}
-  
-}
+  @inproceedings{xu202281,
+    title={An 81.92 Gpixels/s Fast Reconstruction of Images from Compressively Sensed Measurements},
+    author={Xu, Jiayao and Chi, Pham Do Kim and Fu, Chen and Zhou, Jinjia},
+    booktitle={2022 IEEE International Symposium on Circuits and Systems (ISCAS)}, 
+    pages={2978--2982},
+    year={2022},
+    organization={IEEE} 
+  }
 
 
 ## Correction:

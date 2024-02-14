@@ -3,7 +3,7 @@ function [theta, phi_before, psi ] = GetMeasurementMatrix(measurement_matrix_con
 switch measurement_matrix_construction
     case 'binary_random'
         phi_before                      = randi([0, 1], [m, n]); % This will give you a friendly measurement matrix (M must smaller than N)
-    case 'binary_hadamard'
+    case 'walsh_matrix'
         hadamard_matrix          = hadamard(n);     % This function handles only the cases where n, n/12, or n/20 is a power of 2.
         HadIdx                   = 0:n-1;                          % Hadamard index
         M                        = log2(n)+1;                           % Number of bits to represent the index

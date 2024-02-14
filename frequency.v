@@ -1,3 +1,8 @@
+//Matrices used in this work:
+//sensing matrix: measurement matrix * transform matrix
+//measurement matrix: Walsh Matrix
+//transform matrix: Inversed Walsh-Hadamard Transform Matrix
+
 `timescale 1ns/1ns
 
 module frequency;

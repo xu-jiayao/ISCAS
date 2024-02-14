@@ -12,8 +12,7 @@ imageFiles = [dir(fullfile(imageOriginalPath,'*png'));
               dir(fullfile(imageOriginalPath,'*bmp'));
               dir(fullfile(imageOriginalPath,'*mat'))];
 numFiles = length(imageFiles);
-measurement_matrix_construction = 'binary_hadamard';
-image_reconstruction_algorithm  = 'FSAMP';
+measurement_matrix_construction = 'walsh_matrix';
 image_transformation_algorithm  = 'ifwht';
 
 %initialization of parameterss
